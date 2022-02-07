@@ -1,3 +1,12 @@
+# Results: 
+For this problem, we explored different classical machine learning algortihms which tend to show good results on benchmark datasets. We used F1 scoring since our data has class imbalance. Moreover, multiple features had high correlation; therefore they were replaced by instrumental variables to address multicollinearity issue. Model was deployed using FastAPI and could be found here: 
+
+http://127.0.0.1:8000/docs
+
+For API, we used best perfomring algorithms (Random Forest Classifier) which was tuned and pickled in notebook containing model training. All entered features should be in between [0-1] range due to MinMax scaling which was used on training and testing datasets. After execuring prediction, the output will display predicted Revenue and if customer predicted to make a purchase.
+
+
+
 # Aicadium_interview_question_Madi_Kusmanov
 Aicadium - Data Scientist - Interview - Data Science Coding Question
 
